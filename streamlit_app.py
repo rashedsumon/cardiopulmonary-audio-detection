@@ -6,7 +6,7 @@ from model import AudioClassificationModel, preprocess_audio
 
 # --- Page Layout & Setup ---
 st.set_page_config(page_title="Cardiopulmonary Sound Diagnostic AI", layout="centered")
-st.title("🫁 Cardiopulmonary Sound Signals AI Monitor")
+st.title("🫁 Cardiopulmonary Sound Signals Monitor")
 st.write("Deploying Deep Learning to analyze and classify respiratory/cardiac audio.")
 
 # --- 1. Background Dataset Verification (Cached) ---
@@ -24,10 +24,7 @@ def initialize_backend():
 
 dataset_path, model = initialize_backend()
 
-if dataset_path:
-    st.success("✅ Dataset system pipeline linked successfully via KaggleHub!")
-else:
-    st.error("❌ Failed to bind dataset workspace path.")
+
 
 # --- 2. Interactive Front-End UI ---
 st.write("---")
