@@ -1,0 +1,14 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+
+# Local Kaggle configuration/cache hidden directories
+.kaggle/
+.kagglehub/
+
+# Streamlit local settings
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db

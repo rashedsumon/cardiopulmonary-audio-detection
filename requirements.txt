@@ -1,0 +1,8 @@
+streamlit
+kagglehub
+torch
+torchvision
+torchaudio
+librosa
+numpy
+matplotlib
